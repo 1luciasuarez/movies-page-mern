@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { getMovieFetch } from '../components/api/getMoviesFetch';
 import Navbar from '../components/Navbar';
 
-const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:3977/api/v1').replace('/api/v1','');
+
 
 
 const MovieDetails = () => {
