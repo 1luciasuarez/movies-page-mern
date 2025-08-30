@@ -1,4 +1,4 @@
-const API = (import.meta.env.VITE_API_URL || 'http://localhost:3977/api/v1').replace(/\/+$/, '');
+
 
 export const getMoviesFetch = async (page = 1, limit = 12) => {
   const url = `${API}/movies?page=${page}&limit=${limit}`;
