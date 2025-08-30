@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:3977/api/v1').replace('/api/v1','');
 
 const MovieCard = ({ movie }) => {
   const imgSrc = movie?.image ? `http://localhost:3977/${movie.image}` : 'https://via.placeholder.com/400x600?text=No+Image';
